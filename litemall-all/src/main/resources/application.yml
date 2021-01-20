@@ -8,14 +8,17 @@ spring:
       max-file-size: 20MB
       max-request-size: 20MB
 
+
 server:
-  port: 98080
+  port: 53030
+  servlet:
+    context-path: /corn
   compression:
     enabled: true
     min-response-size: 2048
     mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain
 
-server.servlet.context-path=/corn/
+
 
 logging:
   config: classpath:logback-spring.xml
