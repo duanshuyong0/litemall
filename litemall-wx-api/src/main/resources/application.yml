@@ -7,7 +7,6 @@ spring:
 server:
   port: 98080
   
-server.servlet.context-path=/corn/
 
 logging:
   level:
