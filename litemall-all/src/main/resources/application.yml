@@ -11,8 +11,8 @@ spring:
 
 server:
   port: 53030
-  servlet:
-    context-path: /corn
+ # servlet:
+ #   context-path: /corn
   compression:
     enabled: true
     min-response-size: 2048
